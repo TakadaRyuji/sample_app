@@ -1,0 +1,28 @@
+.attention {
+  padding: 30px;
+  border: 2px solid #AADA1A;
+  margin-bottom: 40px;
+}
+.attention .attention-title {
+  color: #AADA1A;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.attention ul li {
+  list-style: disc;
+  list-style-position: inside;
+}
+.attention ul li:before {
+  content: none;
+}
+.attention.a-2 {
+  background: #f9f9f9;
+  border-color: #EEEEEE;
+}
+.attention.a-3 {
+  border-color: #FF6600;
+}
+.attention.a-3 .attention-title {
+  color: #FF6600;
+}
